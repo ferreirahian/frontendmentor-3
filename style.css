@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans svg {
+    margin: 2em;
+}
+
+.sedans h1 {
+    max-width: 100%;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+    margin: 1em;
+}
+
+.sedans p {
+    letter-spacing: 1px;
+    margin: 5em 2em;
+    padding: 0.5em;
+    text-align: justify;
+}
+
+.sedans h5 {
+    background-color: hsl(0, 0%, 95%);
+    margin: 2rem 2rem;
+    padding: 1rem;
+    border-radius: 5em;
+    color: hsl(31, 77%, 52%);
+}
+
+.sedans h5:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 0.5px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.sedans a {
+    text-decoration: none;
+}
+
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs svg {
+    margin: 2rem;
+}
+
+.suvs h1 {
+    max-width: 100%;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+    margin: 1em;
+}
+
+.suvs p {
+    letter-spacing: 1px;
+    margin: 5em 2em;
+    padding: 0.5em;
+    text-align: justify;
+}
+
+.suvs h5 {
+    background-color: hsl(0, 0%, 95%);
+    margin: 2rem 2rem;
+    padding: 1rem;
+    border-radius: 5em;
+    color: hsl(184, 100%, 22%);
+}
+
+.suvs h5:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 0.5px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs a {
+    text-decoration: none;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury svg {
+    margin: 2rem;
+}
+
+.luxury h1 {
+    max-width: 100%;
+    font-weight: 700;
+    font-family: 'Big Shoulders Display';
+    margin: 1em;
+}
+
+.luxury p {
+    letter-spacing: 1px;
+    margin: 5em 2em;
+    padding: 0.5em;
+    text-align: justify;
+}
+
+.luxury h5 {
+    background-color: hsl(0, 0%, 95%);
+    margin: 2rem 2rem;
+    padding: 1rem;
+    border-radius: 5em;
+    color: hsl(179, 100%, 13%);
+}
+
+.luxury h5:hover {
+    cursor: pointer;
+    color: hsl(0, 0%, 95%);
+    border: 0.5px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury a{
+    text-decoration: none;
+}
